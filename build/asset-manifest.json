@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8a3c5043.css",
+    "main.js": "/static/js/main.d8a8d58e.js",
+    "static/js/453.8a8eebd4.chunk.js": "/static/js/453.8a8eebd4.chunk.js",
+    "static/media/bergen.jpg": "/static/media/bergen.3c5b41e2b1b4823e6935.jpg",
+    "index.html": "/index.html",
+    "main.8a3c5043.css.map": "/static/css/main.8a3c5043.css.map",
+    "main.d8a8d58e.js.map": "/static/js/main.d8a8d58e.js.map",
+    "453.8a8eebd4.chunk.js.map": "/static/js/453.8a8eebd4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a3c5043.css",
+    "static/js/main.d8a8d58e.js"
+  ]
+}
