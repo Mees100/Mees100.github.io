@@ -35,6 +35,8 @@ Publishes the website on github pages in the branch `gh-pages`
 
 See https://create-react-app.dev/docs/deployment/#github-pages 
 
+When you get an error 'branch already exists', you should delete `node_modules/.cache/gh-pages`, eg `rm -R node_modules/.cache/gh-pages`
+
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
