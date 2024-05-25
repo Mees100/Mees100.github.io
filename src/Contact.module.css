@@ -1,0 +1,103 @@
+.wrapperBox {
+    height: 250px;
+    width: 250px;
+    position: relative;
+    left: 30%;
+    margin-top: 2%;
+    
+
+}
+
+.squareBox1 {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    background-color: #755553;
+    
+    
+    
+   
+}
+
+.squareBox2 {
+    height: 400px;
+    width: 400px;
+    background-color: #755553;
+    background-color: white;
+    border: 1px solid #755553;
+    position: relative;
+    left: 5%;
+    top: 3%;
+}
+
+.boxEnvelop, .boxLocation {
+   color: #755553;
+   
+   
+}
+
+.contactEnvelop, .contactLocation {
+    position: relative;
+    left: 20%;
+    top: 30%;
+    height: 30px;
+    font-weight: 400;
+   
+    
+}
+
+.tekstEnvelop, .tekstLocation {
+display: inline;
+padding: 7px;
+font-size: 17px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .wrapperBox {
+        margin-top: 7%;
+        left: 30%;
+    }
+    .squareBox2{
+        width: 250px;
+        height: 250px;
+        left: 25%;
+    }
+    .squareBox1{
+        left: 30%;
+        top: 10%;
+        width: 250px;
+        height: 250px;
+    }
+    .contactEnvelop, .contactLocation {
+        position: relative;
+        left: 10%;
+        top: 30%;
+        height: 30px;
+        font-weight: 400;
+       
+        
+    }
+}
+
+@media only screen and (max-width: 1920px) and (min-width: 1080px) {
+    .wrapperBox {
+        margin-top: 7%;
+        left: 30%;
+    }
+    .squareBox2{
+        width: 400px;
+        height: 400px;
+        left: 25%;
+    }
+    .squareBox1{
+        left: 30%;
+        
+        width: 400px;
+        height: 400px;
+    }
+
+    
+
+}
