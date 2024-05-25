@@ -1,0 +1,52 @@
+th {
+    padding: 10px;
+    font-weight: 500;
+    font-family: "Noto Music";
+    color:#755553;
+    
+}
+
+
+table {
+    margin: 5% auto;
+    width: 70%;
+    border-spacing: 10x;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    table {
+       margin: 0 auto; 
+       width: auto;
+       height: auto;
+       line-height: 2;
+       padding: 10px;
+       border-spacing: 1x;
+       
+    }
+    tr {
+        margin-bottom: 20px;
+        padding: 10px
+    }
+    .skillsColor1 {
+        background-color: #BBCFB6;
+        
+    }
+    .skillsColor2 {
+background-color: #CFC4B6;
+    }
+    th {
+        color: #333022;
+    }
+    
+}
+
+@media only screen and (max-width: 1920px) and (min-width: 1080px) {
+    table{
+        margin-top: 7%;
+        font-size: 1.4em;
+    }
+td{
+    font-size: 0.7em;
+    letter-spacing: 0.8px;
+}
+}
