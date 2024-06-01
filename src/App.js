@@ -15,9 +15,9 @@ function Layout() {
       <header className={styles.header}>
         <Container>
           <nav>
-          <div className={styles.menuLinks}>
-            <h2 className={styles.navHeader}>Front-End Developer</h2>
-            
+            <div className={styles.menuLinks}>
+              <h2 className={styles.navHeader}>Front-End Developer</h2>
+
               <Link className={styles.linkStyles} to="/">
                 Home
               </Link>
