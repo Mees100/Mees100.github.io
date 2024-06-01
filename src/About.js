@@ -11,7 +11,7 @@ function About() {
 <p style={{letterSpacing: 4, fontSize: 17, fontWeight: 400}}>Mijn Nederlands</p>
 <tr>
   <th>2021 </th>
-  <td><span style={{color:"#66986A", fontWeight: 400}}>Niveau B2, NT2-II</span>. Ik ben <span style={{color:"#66986A", fontWeight: 400}}> voor de Staatsexamens Nederlands als 2-e taal - II</span> geslaagd</td>
+  <td><span style={{color:"#66986A", fontWeight: 400}}>Niveau B2, NT2-II</span>. Ik ben <span style={{color:"#66986A", fontWeight: 400}}> voor de Staatsexamens Nederlands als 2e taal - II</span> geslaagd</td>
 </tr>
 <tr>
   <th>2020</th>
