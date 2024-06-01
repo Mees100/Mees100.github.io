@@ -1,24 +1,22 @@
 * {
   box-sizing: border-box;
   margin: 0;
-
 }
 
 .header {
-  background-color: #3D6F45;
+  background-color: #3d6f45;
   transition-property: background-color;
   transition-duration: 2s;
   width: 100vw;
 }
 
-.header:hover{
+.header:hover {
   background-color: #163318;
 }
 
 nav {
   height: 75px;
   padding: 10px;
-  border-bottom: 1px solid #163318;  
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -26,8 +24,6 @@ nav {
   justify-content: space-around;
   color: white;
 }
-
-
 
 .navHeader {
   margin: 0;
@@ -39,59 +35,52 @@ nav {
 }
 
 .linkStyles {
-    font-family: "Noto Music";
-    font-weight: 100;
-    font-size: 14px;
+  font-family: "Noto Music";
+  font-weight: 100;
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+}
+ .menuToggle {
+  display: none;
+ }
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  nav {
+    padding: 0;
+    display: block;
+    align-content: center;
+    text-align: center;
+  }
+  .navHeader {
+    font-size: 1.7em;
+  }
+  .linkStyles {
+    text-decoration: underline;
+    padding: 10px;
+  }
+
+  .menuLinks {
+    display: none;
+  }
+
+  .menuToggle {
+    display: inline-block;
+   }
+}
+
+/* @media only screen and (max-width: 1920px) and (min-width: 1080px) {
+  nav {
+    height: 100px;
+    padding: 10px;
+    align-content: center;
+  }
+  .navHeader {
+    font-size: 2em;
+    top: 50px;
+  }
+  .linkStyles {
+    text-decoration: underline;
+    font-size: 1em;
     text-decoration: none;
-    color: white;
-    
   }
-
-  @media only screen and (min-width: 320px) and (max-width: 480px) {
-    
-    nav {
-      height: 5%;
-      padding: 0;
-      display: block;
-      align-content: center;
-      text-align: center;
-      
-      
-    }
-    .navHeader {
-      font-size: 1.7em;
-    }
-    .linkStyles {
-      text-decoration: underline;
-      padding: 10px;
-      
-    }
-   
-  }
-
-  @media only screen and (max-width: 1920px) and (min-width: 1080px) {
-    nav {
-      height: 100px;
-      padding: 10px;
-      align-content: center;
-    
-      
-          
-      
-    }
-    .navHeader {
-      font-size: 2em;
-      top: 50px;
-      
-      
-    }
-    .linkStyles {
-      text-decoration: underline;
-       font-size: 1em;
-      text-decoration: none;
-      
-     
-      
-    }
-   
-  }
+} */
