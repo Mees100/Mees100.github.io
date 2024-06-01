@@ -8,14 +8,20 @@ import Contact from "./Contact.js";
 import { Routes, Route, Outlet, Link } from "react-router-dom";
 import RenderSubtitle from "./text.js";
 import Container from "./Container.js";
+import React, { useState } from 'react';
 
 function Layout() {
+  const [isMenuOpen, setIsMenuOpen] = useState();
+  let menuLinksClassName = styles.menuLinks;
+  if(isMenuOpen) {
+    menuLinksClassName += ' ' + styles.menuLinksOpen;
+  }
   return (
     <>
       <header className={styles.header}>
         <Container>
           <nav>
-            <div className={styles.menuLinks}>
+            <div className={menuLinksClassName}>
               <h2 className={styles.navHeader}>Front-End Developer</h2>
 
               <Link className={styles.linkStyles} to="/">
@@ -31,7 +37,9 @@ function Layout() {
                 Contact
               </Link>
             </div>
-            <button className={styles.menuToggle}>Menu</button>
+            <button className={styles.menuToggle} onClick={() => setIsMenuOpen(!isMenuOpen)}>
+              { isMenuOpen ? 'x' : 'Menu'}
+              </button>
           </nav>
         </Container>
       </header>

@@ -67,6 +67,10 @@ nav {
     display: none;
   }
 
+  .menuLinks.menuLinksOpen {
+    display:flex;
+  }
+
   .menuToggle {
     display: inline-block;
    }
