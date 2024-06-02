@@ -14,7 +14,7 @@
     position: absolute;
     left: 10%;
     top: 10%;
-    background-color: #755553;
+    background-color: var(--color-brown);
     
     
     
@@ -24,16 +24,16 @@
 .squareBox2 {
     height: 400px;
     width: 400px;
-    background-color: #755553;
+    background-color: var(--color-brown);
     background-color: white;
-    border: 1px solid #755553;
+    border: 1px solid var(--color-brown);
     position: relative;
     left: 5%;
     top: 3%;
 }
 
 .boxEnvelop, .boxLocation {
-   color: #755553;
+   color: var(--color-brown);
    
    
 }

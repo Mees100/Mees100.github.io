@@ -2,7 +2,7 @@ th {
     padding: 10px;
     font-weight: 500;
     font-family: "Noto Music";
-    color:#755553;
+    color:var(--color-brown);
     
 }
 
