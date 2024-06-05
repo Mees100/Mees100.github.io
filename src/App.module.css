@@ -47,7 +47,7 @@ nav {
   text-decoration: none;
   color: white;
 }
- .menuToggle {
+ .menuIcon {
   display: none;
  }
 
@@ -63,7 +63,7 @@ nav {
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   nav {
     padding: 0;
-    display: block;
+    justify-content: end;
     align-content: center;
     text-align: center;
   }
@@ -88,9 +88,18 @@ nav {
     justify-content: normal;
   }
 
-  .menuToggle {
-    display: inline-block;
-   }
+  .menuIcon {
+    display: block;
+    width: 35px;  
+    cursor: pointer;
+    margin-right: 25px;
+  }
+  
+  .menuBar {
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+  }
 }
 
 @media only screen and (max-width: 1920px) and (min-width: 1080px) {

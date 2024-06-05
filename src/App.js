@@ -22,12 +22,20 @@ function Layout() {
         <Container>
           <nav>
             <h2 className={styles.navHeader}>Front-End Developer</h2>
-            <button
-              className={styles.menuToggle}
+            <div
+              className={styles.menuIcon}
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
-              {isMenuOpen ? "x" : "Menu"}
-            </button>
+              {isMenuOpen ? (
+                <span>X</span>
+              ) : (
+                <>
+                  <div className={styles.menuBar}></div>
+                  <div className={styles.menuBar}></div>
+                  <div className={styles.menuBar}></div>
+                </>
+              )}
+            </div>
             <div className={menuLinksClassName}>
               <Link className={styles.linkStyles} to="/">
                 Home
