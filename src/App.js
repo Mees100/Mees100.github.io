@@ -27,7 +27,7 @@ function Layout() {
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
               {isMenuOpen ? (
-                <span>X</span>
+                <div className={styles.menuClose}>X</div>
               ) : (
                 <>
                   <div className={styles.menuBar}></div>
