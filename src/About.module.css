@@ -1,120 +1,114 @@
-
-
 .wrapper {
-    height: auto;
-    margin: 0;    
-    width: auto;
-    display: flex;
-    justify-content: space-around;
-   
+  height: auto;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
 }
 
 section {
-    margin-top: 50px;
-    width: 400px;
-    height: 400px;          
-    
+  margin-top: 50px;
+  width: 400px;
+  height: 400px;
 }
 
-.box1 {    
-    padding: 7px;
-    font-size: 15px;
-    width: 400px;    
+.box1 {
+  padding: 7px;
+  font-size: 15px;
+  width: 400px;
 }
 
 .box1 p {
-    padding: 10px;
-    line-height: 25px;
-    text-align: center;    
-    
+  padding: 10px;
+  line-height: 25px;
+  text-align: center;
 }
 
 .sizeLink {
-    font-size: 16px;
-    color: #5399B8;
-    font-weight: 400;
-    position: absolute;
-    transition-property: font-size;
-    transition-duration: 500ms;
-    transition-timing-function: linear;
-    
+  font-size: 16px;
+  color: #5399b8;
+  font-weight: 400;
+  position: absolute;
+  transition-property: font-size;
+  transition-duration: 500ms;
+  transition-timing-function: linear;
 }
 .sizeLink:hover {
-        font-weight: 600;
-        color: #7195B7;
-        font-size: 17px;
-    }
-    
-   
+  font-weight: 600;
+  color: #7195b7;
+  font-size: 17px;
+}
 
 .box2 {
-    background-image: url("bergen.jpg");
-    background-size:400px 400px;
-    opacity: 0.9;
-     text-align: center;    
-    padding-top: 50px;
-    color: black;
-    font-weight: 500;
-        
+  background-image: url("bergen.jpg");
+  background-size: 400px 400px;
+  opacity: 0.9;
+  text-align: center;
+  padding-top: 50px;
+  color: black;
+  font-weight: 500;
 }
 
 .box2 p {
-    padding: 0 10px;
-    font-size: 14px;
-    line-height: 25px;
-    
+  padding: 0 10px;
+  font-size: 14px;
+  line-height: 25px;
 }
 
 td {
-    padding: 0 10px;
-    font-size: 14px;
+  padding: 0 10px;
+  font-size: 14px;
 }
 
-@media only screen and (min-width:360px) and (max-width:480px) and (orientation: portrait)  {
-    .wrapper {
-        display: block;
-        justify-content: none;
-    }
-section {
-    margin-top: 1%;
-   height: 350px;
-}
-    
-        
+@media only screen and (min-width: 360px) and (max-width: 480px) and (orientation: portrait) {
+  .wrapper {
+    display: block;
+    justify-content: none;
+    margin: 75px 0;
   }
 
-  @media only screen and (max-width: 1920px) and (min-width: 1080px) {
-    section {
-        margin-top: 5%;
-        width: 50%;
-        height: 50%;          
-        
-    }
-    .box1{
-        width: 40%;
-        font-size: 1.4em;
-        padding: 0;
+  section {
+    height: 350px;
+    width: auto;
+  }
 
-    }
-  
-    .box1 p {
-        padding: 20px;
-        line-height: 30px;
-        text-align: center;    
-        
-    }
-    .box2{
-       width: 400px;
-       height: 400px;
-        margin-top: 7%;
-        background-image: url("bergen.jpg");
-    background-size:400px 400px;
+  .box2 {
+    background-image: url("bergen.jpg");
+    background-size: 100% 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+@media only screen and (max-width: 1920px) and (min-width: 1080px) {
+  .wrapper {
+    margin: 75px 0;
+  }
+  section {
+    width: 50%;
+    height: 50%;
+  }
+  .box1 {
+    width: 40%;
+    font-size: 1.4em;
+    padding: 0;
+  }
+
+  .box1 p {
+    padding: 20px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .box2 {
+    width: 400px;
+    height: 400px;
+    margin-top: 7%;
+    background-image: url("bergen.jpg");
+    background-size: 400px 400px;
     opacity: 0.9;
-
-    }
-
-    td {
-        padding: 40 10px;
-        font-size: 1.5em;
-    }
   }
+
+  td {
+    padding: 40 10px;
+    font-size: 1.5em;
+  }
+}
