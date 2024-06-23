@@ -10,6 +10,7 @@ import RenderSubtitle from "./text.js";
 import Container from "./Container.js";
 import React, { useState } from "react";
 
+
 function Layout() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   let menuLinksClassName = styles.menuLinks;
