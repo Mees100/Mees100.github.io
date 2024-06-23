@@ -43,25 +43,43 @@ function Layout() {
               )}
             </div>
             <div className={menuLinksClassName}>
-              <Link className={styles.linkStyles} to="/" onClick={() => setIsMenuOpen(false)}>
+              <Link
+                className={styles.linkStyles}
+                to="/"
+                onClick={() => setIsMenuOpen(false)}
+              >
                 Home
               </Link>
-              <Link className={styles.linkStyles} to="/skills"  onClick={() => setIsMenuOpen(false)}>
+              <Link
+                className={styles.linkStyles}
+                to="/skills"
+                onClick={() => setIsMenuOpen(false)}
+              >
                 Skills
               </Link>
-              <Link className={styles.linkStyles} to="/about"  onClick={() => setIsMenuOpen(false)}>
+              <Link
+                className={styles.linkStyles}
+                to="/about"
+                onClick={() => setIsMenuOpen(false)}
+              >
                 About
               </Link>
-              <Link className={styles.linkStyles} to="/Contact"  onClick={() => setIsMenuOpen(false)}>
+              <Link
+                className={styles.linkStyles}
+                to="/Contact"
+                onClick={() => setIsMenuOpen(false)}
+              >
                 Contact
               </Link>
             </div>
           </nav>
         </Container>
       </header>
-      <Container>
-        <Outlet />
-      </Container>
+      <main>
+        <Container>
+          <Outlet />
+        </Container>
+      </main>
     </>
   );
 }

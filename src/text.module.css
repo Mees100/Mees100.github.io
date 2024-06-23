@@ -1,7 +1,7 @@
 
 
 .oneZin {
-    padding: 90px 40px;
+  padding: 90px 40px;
   font-size:  2em;
   text-align: center;
   color:var(--color-brown);
@@ -13,7 +13,7 @@
 
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (max-width: 576px) {
   .oneZin {
     font-size: 2.5em;      
     
@@ -22,8 +22,8 @@
 
 @media only screen and (max-width: 1920px) and (min-width: 1080px) {
   .oneZin {
-    font-size: 3.5em;
-    margin: 7%;
+    font-size: 3.7em;
     padding: 0;
+    padding-top: 140px;
   }
 }

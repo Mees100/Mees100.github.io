@@ -12,8 +12,7 @@ function Contact() {
   return (
     <div className={styles.wrapperBox}>
 
-      <div className={styles.squareBox1} >
-      </div>
+      
       <div className={styles.squareBox2}>
         <div className={styles.contactEnvelop}>
           <FontAwesomeIcon className={styles.boxEnvelop} icon={faEnvelope} />

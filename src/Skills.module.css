@@ -6,16 +6,14 @@ th {
 }
 
 table {
-  margin: 5% auto;
-  width: 70%;
+  margin: 0 auto;
+  padding: 75px;
+  width: 80%;
   border-spacing: 10x;
-  
- 
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (max-width: 576px) {
   table {
-    margin: 75px auto 0;
     width: auto;
     height: auto;
     line-height: 2;
@@ -23,7 +21,6 @@ table {
     border-spacing: 1x;
   }
   tr {
-    margin-bottom: 20px;
     padding: 10px;
   }
   .skillsColor1 {
@@ -37,15 +34,14 @@ table {
   }
 }
 
-@media only screen and (max-width: 1920px) and (min-width: 1080px) {
+@media only screen and (min-width: 1080px) {
   table {
-    margin-top: 10%;
+    padding-top: 85px;
     font-size: 1.4em;
   }
   td {
     font-size: 0.7em;
     letter-spacing: 0.9px;
     font-family: "Noto Music";
-    
-}
+  }
 }

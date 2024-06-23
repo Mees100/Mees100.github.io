@@ -5,7 +5,7 @@ function About() {
   return (
     <div className={styles.wrapper}>
       <section className={styles.box1}>
-        <p style={{ letterSpacing: 4, fontSize: 17, fontWeight: 400 }}>
+        <p>
           Mijn Nederlands
         </p>
         <tr>
