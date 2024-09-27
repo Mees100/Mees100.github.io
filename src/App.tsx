@@ -2,6 +2,8 @@
 import "./App.css";
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import styles from "./App.module.css";
+import Container from "./Container.tsx";
 
 
 function Layout() {
