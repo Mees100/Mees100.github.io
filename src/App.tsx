@@ -1,12 +1,12 @@
 
 import "./App.css";
-import React, { useState } from "react";
+import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "./App.module.css";
 import Container from "./Container.tsx";
 
 
-function Layout() {
+function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   let menuLinksClassName = styles.menuLinks;
   if (isMenuOpen) {
@@ -34,41 +34,41 @@ function Layout() {
               )}
             </div>
             <div className={menuLinksClassName}>
-              <Link
+              <a
                 className={styles.linkStyles}
-                to="/"
+                href="/"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Home
-              </Link>
-              <Link
+              </a>
+              <a
                 className={styles.linkStyles}
-                to="/skills"
+                href="/skills"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Skills
-              </Link>
-              <Link
+              </a>
+              <a
                 className={styles.linkStyles}
-                to="/certificates"
+                href="/certificates"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Certicates
-              </Link>              
-              <Link
+              </a>              
+              <a
                 className={styles.linkStyles}
-                to="/about"
+                href="/about"
                 onClick={() => setIsMenuOpen(false)}
               >
                 About
-              </Link>
-              <Link
+              </a>
+              <a
                 className={styles.linkStyles}
-                to="/Contact"
+                href="/Contact"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Contact
-              </Link>
+              </a>
             </div>
           </nav>
         </Container>
@@ -77,4 +77,4 @@ function Layout() {
   );
 }
 
-export default Layout;
+export default App;
