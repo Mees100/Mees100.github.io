@@ -4,6 +4,8 @@ import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "./App.module.css";
 import Container from "./Container.tsx";
+import RenderSubtitle from "./Text.tsx";
+import BoxHeader from "./BoxHeader.tsx";
 
 
 function App() {
@@ -78,3 +80,15 @@ function App() {
 }
 
 export default App;
+
+
+function Home() {
+  return (
+    <>
+      <div>
+        <BoxHeader />
+        <RenderSubtitle />
+      </div>
+    </>
+  );
+}
