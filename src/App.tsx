@@ -2,9 +2,9 @@ import "./App.css";
 import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "./App.module.css";
-import Container from "./Container.tsx";
-import RenderSubtitle from "./Text.tsx";
-import BoxHeader from "./BoxHeader.tsx";
+import Container from "./components/Container.tsx";
+import RenderSubtitle from "./components/RenderSubtitle.tsx";
+import BoxHeader from "./components/BoxHeader.tsx";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
