@@ -1,11 +1,12 @@
 import "./App.css";
-import { useState } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "./App.module.css";
+import About from "./About.tsx";
 import Container from "./components/Container.tsx";
 import RenderSubtitle from "./components/RenderSubtitle.tsx";
 import BoxHeader from "./components/BoxHeader.tsx";
+import { useState } from "react";
 import { Routes, Route, Outlet, Link } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function Layout() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -89,6 +90,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
+        <Route path="/About" element={<About />} />
       </Route>
     </Routes>
   );

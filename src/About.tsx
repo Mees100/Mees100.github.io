@@ -4,9 +4,7 @@ function About() {
   return (
     <div className={styles.wrapper}>
       <section className={styles.box1}>
-        <p>
-          Mijn Nederlands
-        </p>
+        <p>Mijn Nederlands</p>
         <tr>
           <th>2021 </th>
           <td>
@@ -28,8 +26,6 @@ function About() {
               className={styles.sizeLink}
               href="https://www.ru.nl/radboud-into-languages"
               target="_blank"
-              without
-              rel="noreferrer"
             >
               Radboud In'to Languages
             </a>
