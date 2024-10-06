@@ -5,8 +5,9 @@ import styles from "./App.module.css";
 import Container from "./components/Container.tsx";
 import RenderSubtitle from "./components/RenderSubtitle.tsx";
 import BoxHeader from "./components/BoxHeader.tsx";
+import { Routes, Route, Outlet, Link } from "react-router-dom";
 
-function App() {
+function Layout() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   let menuLinksClassName = styles.menuLinks;
   if (isMenuOpen) {
@@ -34,51 +35,62 @@ function App() {
               )}
             </div>
             <div className={menuLinksClassName}>
-              <a
+              <Link
                 className={styles.linkStyles}
-                href="/"
+                to="/"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Home
-              </a>
-              <a
+              </Link>
+              <Link
                 className={styles.linkStyles}
-                href="/skills"
+                to="/skills"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Skills
-              </a>
-              <a
+              </Link>
+              <Link
                 className={styles.linkStyles}
-                href="/certificates"
+                to="/certificates"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Certicates
-              </a>
-              <a
+              </Link>
+              <Link
                 className={styles.linkStyles}
-                href="/about"
+                to="/about"
                 onClick={() => setIsMenuOpen(false)}
               >
                 About
-              </a>
-              <a
+              </Link>
+
+              <Link
                 className={styles.linkStyles}
-                href="/Contact"
+                to="/Contact"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Contact
-              </a>
+              </Link>
             </div>
           </nav>
         </Container>
       </header>
       <main>
         <Container>
-          <Home />
+          <Outlet />
         </Container>
       </main>
     </>
+  );
+}
+
+function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+      </Route>
+    </Routes>
   );
 }
 
