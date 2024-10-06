@@ -1,4 +1,3 @@
-
 import "./App.css";
 import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -6,7 +5,6 @@ import styles from "./App.module.css";
 import Container from "./Container.tsx";
 import RenderSubtitle from "./Text.tsx";
 import BoxHeader from "./BoxHeader.tsx";
-
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -56,7 +54,7 @@ function App() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 Certicates
-              </a>              
+              </a>
               <a
                 className={styles.linkStyles}
                 href="/about"
@@ -75,12 +73,16 @@ function App() {
           </nav>
         </Container>
       </header>
+      <main>
+        <Container>
+          <Home />
+        </Container>
+      </main>
     </>
   );
 }
 
 export default App;
-
 
 function Home() {
   return (

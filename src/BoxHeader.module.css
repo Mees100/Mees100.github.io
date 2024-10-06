@@ -1,14 +1,13 @@
 .header {
     text-align: center;
     line-height: 1.7;
-    /* Tijdens het pizza bakken gaan we postcss proberen, dat is niet moeilijk :) */
     color: #3a3636;
     width: auto;
     padding-top: 70px;
   }
   
   .headerName {
-    font-family: "Noto Music" "Noto Music";
+    font-family: "Noto Music";
     font-weight: 100;
     font-size: 2em;
     letter-spacing: 4px;
