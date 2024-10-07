@@ -19,7 +19,15 @@ import certificate5 from "./Image-certificates/Image_certificate_5.jpg";
 import certificate6 from "./Image-certificates/Image_certificate_6.jpg";
 import certificate7 from "./Image-certificates/Image_certificate_7.jpg";
 
-function CertificateCard({ title, certificate, alt }) {
+function CertificateCard({
+  title,
+  certificate,
+  alt,
+}: {
+  title: string;
+  certificate: string;
+  alt: string;
+}) {
   const [modal, setModal] = useState(false);
 
   const toggle = () => setModal(!modal);
