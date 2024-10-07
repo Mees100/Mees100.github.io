@@ -5,6 +5,7 @@ import Container from "./components/Container.tsx";
 import RenderSubtitle from "./components/RenderSubtitle.tsx";
 import BoxHeader from "./components/BoxHeader.tsx";
 import Skills from "./Skills.tsx";
+import Certificates from "./Certificates.tsx";
 import { useState } from "react";
 import { Routes, Route, Outlet, Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -93,6 +94,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path="/About" element={<About />} />
         <Route path="/Skills" element={<Skills />} />
+        <Route path="/Certificates" element={<Certificates />} />
       </Route>
     </Routes>
   );

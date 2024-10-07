@@ -1,0 +1,29 @@
+.collection {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1em;
+    justify-content: center;
+    
+  }
+  
+  .graduationCard {
+    width: 200px;
+    margin-right: 1em;
+    line-height: 24px;
+    height: 200px;
+    
+  }
+  
+  .format {
+    height: 200px;
+    
+  }
+  
+  /* css variabelen: zie https://www.w3schools.com/css/css3_variables.asp */
+  .clickDesign {
+    --bs-btn-color: var(--background-green) !important;
+  }
+  
+  .clickDesign:hover {
+    --bs-btn-hover-bg: var(--background-green) !important;
+  }
