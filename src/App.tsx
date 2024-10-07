@@ -6,6 +6,7 @@ import RenderSubtitle from "./components/RenderSubtitle.tsx";
 import BoxHeader from "./components/BoxHeader.tsx";
 import Skills from "./Skills.tsx";
 import Certificates from "./Certificates.tsx";
+import Contact from "./Contact.tsx";
 import { useState } from "react";
 import { Routes, Route, Outlet, Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -95,6 +96,7 @@ function App() {
         <Route path="/About" element={<About />} />
         <Route path="/Skills" element={<Skills />} />
         <Route path="/Certificates" element={<Certificates />} />
+        <Route path="/Contact" element={<Contact />} />
       </Route>
     </Routes>
   );
