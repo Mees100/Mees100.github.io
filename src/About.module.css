@@ -103,7 +103,7 @@
     .box2 {
       width: 400px;
       height: 400px;
-      background-image: url("Bergen.jpg");
+      background-image: url("./Image-certificates/Bergen_about.jpg");
       background-size: 400px 400px;
       opacity: 0.9;
     }
