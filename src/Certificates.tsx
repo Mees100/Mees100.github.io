@@ -36,7 +36,7 @@ function CertificateCard({
     <>
       <div className={styles.graduationCard}>
         <Card body style={{ height: 150 }}>
-          <CardTitle style={{ height: 100, fontSize: 16 }}>{title}</CardTitle>
+          <CardTitle className={styles.graduationCardtitle}>{title}</CardTitle>
           <Button
             outline
             size="sm"
