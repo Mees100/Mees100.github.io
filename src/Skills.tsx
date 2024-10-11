@@ -39,14 +39,16 @@ function Skills() {
         <tr>
           <th className={styles.skillsColor2}>Git and GitHub</th>
           <td className={styles.skillsColor2}>
-            important Git operations, Git Branching, Git teamwork
+            work in the terminal, important Git operations, Git Branching, work
+            in GitHub, Git teamwork
           </td>
         </tr>
         <tr>
-          <th className={styles.skillsColor1}>React</th>
+          <th className={styles.skillsColor1}>React en TypeScript</th>
           <td className={styles.skillsColor1}>
-            virtual DOM, JSX, react components, creating a react app, componnets
-            interacting, props, hooks, react styles, react router
+            vaardigheden en ervaring met Vite, virtual DOM, JSX, react
+            components, creating a react app, componnets interacting, props,
+            hooks, react styles, react router, children, Bootstrap, markdown
           </td>
         </tr>
         <tr>
