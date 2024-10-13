@@ -4,7 +4,7 @@ function About() {
   return (
     <div className={styles.wrapper}>
       <section className={styles.box1}>
-        <p>Mijn Nederlands</p>
+        <h4>Mijn Nederlands</h4>
         <tr>
           <th>2021 </th>
           <td>
@@ -58,11 +58,8 @@ function About() {
         </tr>
       </section>
       <section className={styles.box2}>
-        <p style={{ letterSpacing: 4, fontSize: 17, fontWeight: 400 }}>
-          Hobbies:
-        </p>
-        <p style={{ fontFamily: "Noto Music" }}>
-          {" "}
+        <h4>Hobbies</h4>
+        <p>
           natuur, fietsen, reizen, hiking, bergen, boeken lezen, piano spelen,
           kunst, museums, Nederlandse taal leren
         </p>
