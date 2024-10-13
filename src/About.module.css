@@ -7,7 +7,6 @@
 
 section {
   width: 400px;
-  height: 500px;
 }
 
 .box1 {
@@ -60,7 +59,6 @@ section {
   }
 
   section {
-    height: 390px;
     width: auto;
   }
 
@@ -81,7 +79,6 @@ section {
 @media only screen and (min-width: 1080px) {
   section {
     width: 50%;
-    height: 50%;
   }
   .box1 {
     width: 40%;
