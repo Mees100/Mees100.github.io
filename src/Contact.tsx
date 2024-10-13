@@ -11,10 +11,10 @@ function Contact() {
       <div className={styles.squareBox2}>
         <div className={styles.contactEnvelop}>
           <FontAwesomeIcon className={styles.boxEnvelop} icon={faEnvelope} />
-          <p className={styles.tekstEnvelop}>Mees100.dev@gmail.com</p>
+          <span className={styles.tekstEnvelop}>Mees100.dev@gmail.com</span>
         </div>
         <div className={styles.contactHub}>
-          <FontAwesomeIcon icon={faGithub} />
+          <FontAwesomeIcon icon={faGithub} className={styles.boxGithub} />
           <a href="https://github.com/Mees100?tab=repositories" target="_blank">
             My GitHub page
           </a>
@@ -24,7 +24,7 @@ function Contact() {
             className={styles.boxLocation}
             icon={faLocationDot}
           />
-          <p className={styles.tekstLocation}>Nederland, Gelderland</p>
+          <span className={styles.tekstLocation}>Nederland, Gelderland</span>
         </div>
       </div>
     </div>
