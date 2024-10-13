@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 
 function RenderSubtitle() {
   let [currentIndex, setIndex] = useState(0);
-  const text = "HTML  CCS Design REACT  JavaScript Git GitHub  ";
+  const text = "HTML  CCS Design REACT  JavaScript TypeScript Git GitHub  ";
 
   useEffect(() => {
     const id = setInterval(() => {
