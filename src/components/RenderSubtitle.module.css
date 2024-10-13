@@ -1,7 +1,7 @@
 
 
 .oneZin {
-    padding: 90px 40px;
+    padding: 80px 40px;
     font-size:  2em;
     text-align: center;
     color:var(--color-brown);
@@ -24,6 +24,6 @@
     .oneZin {
       font-size: 3.7em;
       padding: 0;
-      padding-top: 140px;
+      padding-top: 100px;
     }
   }

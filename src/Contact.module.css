@@ -1,0 +1,49 @@
+.squareBox2 {
+  margin: 0 auto;
+  height: 170px;
+  width: 400px;
+  padding-top: 50px;
+  padding-left: 40px;
+  background-color: var(--color-brown);
+  background-color: white;
+  border: 1px solid var(--color-brown);
+  box-shadow: 10px 10px var(--color-brown);
+  font-size: 17px;
+}
+
+.boxEnvelop,
+.boxGithub,
+.boxLocation {
+  width: 2em;
+  color: var(--color-brown);
+}
+
+.contactEnvelop,
+.contactHub,
+.contactLocation {
+  height: 30px;
+  font-weight: 400;
+}
+
+.tekstEnvelop,
+.tekstLocation {
+  display: inline;
+}
+
+.wrapperBox {
+  padding: 50px 0;
+}
+
+@media only screen and (max-width: 576px) {
+  .wrapperBox {
+    padding: 50px;
+  }
+
+  .squareBox2 {
+    width: 250px;
+    height: 150px;
+    box-shadow: 10px 10px var(--color-brown);
+    padding-top: 40px;
+    padding-left: 10px;
+  }
+}
