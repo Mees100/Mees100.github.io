@@ -46,9 +46,11 @@ section {
   font-size: 17px;
 }
 
-td {
-  padding: 5px 10px;
-  font-size: 14px;
+.dutch {
+  tbody tr td:first-child {
+    padding-right: 1em;
+    vertical-align: top;
+  }
 }
 
 @media only screen and (max-width: 576px) {
@@ -83,7 +85,6 @@ td {
   }
   .box1 {
     width: 40%;
-    font-size: 1.4em;
   }
 
   .box2 {
@@ -92,9 +93,5 @@ td {
     background-image: url("./Image-certificates/Bergen_about.jpg");
     background-size: 400px 400px;
     opacity: 0.9;
-  }
-
-  td {
-    font-size: 1.5em;
   }
 }

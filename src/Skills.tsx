@@ -3,7 +3,7 @@ import styles from "./Skills.module.css";
 function Skills() {
   return (
     <>
-      <table>
+      <table className={styles.skills}>
         <tr>
           <th className={styles.skillsColor1} rowSpan={3}>
             Web Foundations

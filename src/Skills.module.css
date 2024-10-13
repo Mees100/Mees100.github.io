@@ -1,49 +1,50 @@
-th {
+.skills {
+  margin: 9% auto;
+  padding: 75px;
+  width: 80%;
+  border-spacing: 10x;
+
+  th {
     padding: 10px;
     font-weight: 100;
     font-family: "Noto Music";
     color: var(--color-brown);
-    letter-spacing: .0625rem;
+    letter-spacing: 0.0625rem;
     font-size: 0.9em;
   }
-  
+}
+
+@media only screen and (max-width: 576px) {
   table {
-    margin: 9% auto;
-    padding: 75px;
-    width: 80%;
-    border-spacing: 10x;
+    width: auto;
+    height: auto;
+    line-height: 2;
+    padding: 10px;
+    border-spacing: 1x;
   }
-  
-  @media only screen and (max-width: 576px) {
-    table {
-      width: auto;
-      height: auto;
-      line-height: 2;
-      padding: 10px;
-      border-spacing: 1x;
-    }
-    tr {
-      padding: 10px;
-    }
-    .skillsColor1 {
-      background-color: #bbcfb6;
-    }
-    .skillsColor2 {
-      background-color: #cfc4b6;
-    }
-    th {
-      color: #333022;
-    }
+  tr {
+    padding: 10px;
   }
-  
-  @media only screen and (min-width: 1080px) {
-    table {
-      padding-top: 85px;
-      font-size: 1.4em;
-    }
+  .skillsColor1 {
+    background-color: #bbcfb6;
+  }
+  .skillsColor2 {
+    background-color: #cfc4b6;
+  }
+  th {
+    color: #333022;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  .skills {
+    padding-top: 85px;
+    font-size: 1.4em;
+
     td {
       font-size: 0.7em;
-      letter-spacing: .015625rem;
+      letter-spacing: 0.015625rem;
       font-family: "Noto Music";
     }
   }
+}
