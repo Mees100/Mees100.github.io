@@ -97,6 +97,7 @@ function App() {
         <Route path="/Skills" element={<Skills />} />
         <Route path="/Certificates" element={<Certificates />} />
         <Route path="/Contact" element={<Contact />} />
+        <Route path="*" element={<NoMatch />} />
       </Route>
     </Routes>
   );
@@ -113,4 +114,8 @@ function Home() {
       </div>
     </>
   );
+}
+
+function NoMatch() {
+  return <>Niets gevonden</>;
 }
