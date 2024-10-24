@@ -10,13 +10,13 @@ function Skills() {
               Web Foundations
             </th>
             <td className={styles.skillsColor1}>
-              Fundamentals of HTML:<br></br> structure, tables, semantic HTML
+              Fundamentals of HTML: structure, tables, semantic HTML
             </td>
           </tr>
           <tr>
             <td className={styles.skillsColor1}>
-              Fundamentals of CSS:<br></br> the Box Model, display and
-              positioning, colours, typography, secondary navigation
+              Fundamentals of CSS:<br></br> the Box Model, Flexbox and Grid,
+              display and positioning, colours, typography, secondary navigation
             </td>
           </tr>
           <tr>
