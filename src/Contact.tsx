@@ -26,16 +26,18 @@ function Contact() {
           <span className={styles.tekstLocation}>Nederland, Gelderland</span>
         </div>
       </div>
-      <iframe
-        src="https://docs.google.com/forms/d/e/1FAIpQLSflvbbLOf6mQ3x5mZql9X6z8ZTlCMGl3kCtYjUnxBM7MW5cYA/viewform?embedded=true"
-        width="640"
-        height="783"
-        frameBorder="0"
-        marginHeight={0}
-        marginWidth={0}
-      >
-        Laden…
-      </iframe>
+      <div className={styles.squareBox1}>
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLSflvbbLOf6mQ3x5mZql9X6z8ZTlCMGl3kCtYjUnxBM7MW5cYA/viewform?embedded=true"
+          width="640"
+          height="783"
+          frameBorder="0"
+          marginHeight={0}
+          marginWidth={0}
+        >
+          Laden…
+        </iframe>
+      </div>
     </div>
   );
 }

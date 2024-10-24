@@ -1,14 +1,27 @@
+.wrapperBox {
+  display: flex;
+  height: auto;
+
+  max-width: 1400px;
+  margin: 100px auto;
+}
+
+.squareBox2,
+.squareBox1 {
+  width: 400px;
+  margin-left: 70px;
+}
 .squareBox2 {
-  margin: 0 auto;
   height: 170px;
   width: 400px;
   padding-top: 50px;
   padding-left: 40px;
-  background-color: var(--color-brown);
+  background-color: var(--background-green);
   background-color: white;
   border: 1px solid var(--color-brown);
-  box-shadow: 10px 10px var(--color-brown);
+  box-shadow: 10px 10px var(--background-green);
   font-size: 17px;
+  margin-top: 12px;
 }
 
 .boxEnvelop,
@@ -30,13 +43,9 @@
   display: inline;
 }
 
-.wrapperBox {
-  padding: 50px 0;
-}
-
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 1010px) {
   .wrapperBox {
-    padding: 50px;
+    display: block;
   }
 
   .squareBox2 {
@@ -45,5 +54,9 @@
     box-shadow: 10px 10px var(--color-brown);
     padding-top: 40px;
     padding-left: 10px;
+  }
+
+  .squareBox1 {
+    width: auto;
   }
 }
