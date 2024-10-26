@@ -24,6 +24,10 @@
   margin-top: 12px;
 }
 
+.googleform {
+  max-width: 100%;
+}
+
 .boxEnvelop,
 .boxGithub,
 .boxLocation {
