@@ -6,7 +6,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 function Contact() {
   return (
-    <div className={styles.wrapperBox}>
+    <>
       <div className={styles.squareBox2}>
         <div className={styles.contactEnvelop}>
           <FontAwesomeIcon className={styles.boxEnvelop} icon={faEnvelope} />
@@ -36,7 +36,7 @@ function Contact() {
           Laden…
         </iframe>
       </div>
-    </div>
+    </>
   );
 }
 

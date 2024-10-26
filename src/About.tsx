@@ -2,8 +2,8 @@ import styles from "./About.module.css";
 
 function About() {
   return (
-    <div className={styles.wrapper}>
-      <section className={styles.box1}>
+    <>
+      <section className={styles.boxNl}>
         <h4>Mijn Nederlands</h4>
         <table className={styles.dutch}>
           <tbody>
@@ -61,7 +61,7 @@ function About() {
           </tbody>
         </table>
       </section>
-      <section className={styles.box2}>
+      <section className={styles.boxHobby}>
         <h4>Hobbies</h4>
         <p>
           natuur, fietsen, reizen, hiking, bergen, boeken lezen, piano spelen,
@@ -69,7 +69,7 @@ function About() {
         </p>
       </section>
       <div className={styles.box3}></div>
-    </div>
+    </>
   );
 }
 
