@@ -1,6 +1,6 @@
 .skills {
   margin: 9% auto;
-  padding: 75px;
+  padding: 75px 0;
   width: 80%;
   border-spacing: 10x;
 
@@ -12,25 +12,30 @@
     letter-spacing: 0.0625rem;
     font-size: 0.9em;
   }
+  td {
+    padding: 5px;
+  }
 }
 
 @media only screen and (max-width: 576px) {
+  .skills {
+    margin-top: 20%;
+    height: auto;
+  }
   table {
     width: auto;
     height: auto;
-    line-height: 2;
-    padding: 10px;
+    line-height: 1, 5;
+    padding: 5px;
     border-spacing: 1x;
   }
   tr {
-    padding: 10px;
+    padding: 5px;
   }
   .skillsColor1 {
     background-color: #bbcfb6;
   }
-  .skillsColor2 {
-    background-color: #cfc4b6;
-  }
+
   th {
     color: #333022;
   }

@@ -1,14 +1,19 @@
 .squareBox2 {
-  margin: 0 auto;
   height: 170px;
   width: 400px;
   padding-top: 50px;
   padding-left: 40px;
-  background-color: var(--color-brown);
   background-color: white;
-  border: 1px solid var(--color-brown);
-  box-shadow: 10px 10px var(--color-brown);
+  border: 1px solid lightgray;
+  border-top: solid var(--background-green);
+  border-width: 10px 1px 1px;
+  border-radius: 8px;
   font-size: 17px;
+  margin-top: 12px;
+}
+
+.googleform {
+  max-width: 100%;
 }
 
 .boxEnvelop,
@@ -30,20 +35,19 @@
   display: inline;
 }
 
-.wrapperBox {
-  padding: 50px 0;
-}
-
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 1010px) {
   .wrapperBox {
-    padding: 50px;
+    display: block;
   }
 
   .squareBox2 {
     width: 250px;
     height: 150px;
-    box-shadow: 10px 10px var(--color-brown);
     padding-top: 40px;
     padding-left: 10px;
+  }
+
+  .squareBox1 {
+    width: auto;
   }
 }

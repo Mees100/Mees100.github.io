@@ -10,6 +10,7 @@ import Contact from "./Contact.tsx";
 import { useState } from "react";
 import { Routes, Route, Outlet, Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Main from "./components/Main.tsx";
 
 function Layout() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -79,11 +80,11 @@ function Layout() {
           </nav>
         </Container>
       </header>
-      <main>
-        <Container>
+      <Container>
+        <Main>
           <Outlet />
-        </Container>
-      </main>
+        </Main>
+      </Container>
     </>
   );
 }

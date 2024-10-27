@@ -6,7 +6,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 function Contact() {
   return (
-    <div className={styles.wrapperBox}>
+    <>
       <div className={styles.squareBox2}>
         <div className={styles.contactEnvelop}>
           <FontAwesomeIcon className={styles.boxEnvelop} icon={faEnvelope} />
@@ -26,7 +26,17 @@ function Contact() {
           <span className={styles.tekstLocation}>Nederland, Gelderland</span>
         </div>
       </div>
-    </div>
+      <div className={styles.squareBox1}>
+        <iframe
+          className={styles.googleform}
+          src="https://docs.google.com/forms/d/e/1FAIpQLSflvbbLOf6mQ3x5mZql9X6z8ZTlCMGl3kCtYjUnxBM7MW5cYA/viewform?embedded=true"
+          width="640"
+          height="892"
+        >
+          Laden…
+        </iframe>
+      </div>
+    </>
   );
 }
 

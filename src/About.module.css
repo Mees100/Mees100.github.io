@@ -1,19 +1,13 @@
-.wrapper {
-  height: auto;
-  display: flex;
-  justify-content: space-around;
-  padding-top: 50px;
-}
-
 section {
   width: 400px;
 }
 
-.box1 {
+.boxNl {
   padding: 5px;
+  flex-grow: 1;
 }
-.box2 {
-  background-image: url("Bergen.jpg");
+.boxHobby {
+  background-image: url("./Image-certificates/Bergen_about.jpg");
   background-size: 400px 400px;
   text-align: center;
   padding: 5px;
@@ -22,8 +16,8 @@ section {
   border-radius: 3%;
 }
 
-.box1 h4,
-.box2 h4 {
+.boxNl h4,
+.boxHobby h4 {
   padding: 10px;
   line-height: 25px;
   text-align: center;
@@ -62,14 +56,13 @@ section {
     width: auto;
   }
 
-  .box2 {
-    background-image: url("Bergen.jpg");
+  .boxHobby {
     background-size: 100% 400px;
     background-position: center;
     background-repeat: no-repeat;
   }
 
-  .box1 {
+  .boxNl {
     padding: 15px;
     width: auto;
     justify-content: center;
@@ -80,14 +73,10 @@ section {
   section {
     width: 50%;
   }
-  .box1 {
-    width: 40%;
-  }
 
-  .box2 {
+  .boxHobby {
     width: 400px;
     height: 400px;
-    background-image: url("./Image-certificates/Bergen_about.jpg");
     background-size: 400px 400px;
     opacity: 0.9;
   }
