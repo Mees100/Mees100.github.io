@@ -32,7 +32,7 @@ function Skills() {
           <tr>
             <th className={styles.skillsColor1}>JavaScript</th>
             <td className={styles.skillsColor1}>
-              DOM,data types, conditional statements, functions, scope, arrays,
+              DOM, data types, conditional statements, functions, scope, arrays,
               loops, objects, iterators, higher-order functions, DOM events,
               errors and debugging
             </td>
