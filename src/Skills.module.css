@@ -1,6 +1,4 @@
 .skills {
-  margin: 9% auto;
-  padding: 75px 0;
   width: 80%;
   border-spacing: 10x;
 
@@ -18,10 +16,6 @@
 }
 
 @media only screen and (max-width: 576px) {
-  .skills {
-    margin-top: 20%;
-    height: auto;
-  }
   table {
     width: auto;
     height: auto;
@@ -43,7 +37,6 @@
 
 @media only screen and (min-width: 1080px) {
   .skills {
-    padding-top: 85px;
     font-size: 1.4em;
 
     td {
