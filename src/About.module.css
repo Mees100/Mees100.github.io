@@ -16,7 +16,12 @@ section {
   border-radius: 3%;
 }
 
-.boxNl h4,
+.boxNl h4 {
+  padding: 10px 0;
+  line-height: 25px;
+  font-family: "Noto Music";
+}
+
 .boxHobby h4 {
   padding: 10px;
   line-height: 25px;
