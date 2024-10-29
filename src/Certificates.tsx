@@ -61,7 +61,7 @@ const items = [
   },
 ];
 
-function Certificates(args) {
+function Certificates() {
   const [activeIndex, setActiveIndex] = useState(0);
   const [animating, setAnimating] = useState(false);
 
@@ -77,7 +77,7 @@ function Certificates(args) {
     setActiveIndex(nextIndex);
   };
 
-  const goToIndex = (newIndex) => {
+  const goToIndex = (newIndex: number) => {
     if (animating) return;
     setActiveIndex(newIndex);
   };
@@ -90,39 +90,39 @@ function Certificates(args) {
         key={item.key}
       >
         <img src={item.src} alt={item.altText} />
-        <CarouselCaption
-          captionText={item.caption}
-          captionHeader={item.caption}
-        />
       </CarouselItem>
     );
   });
 
   return (
     <>
-      <Carousel
-        activeIndex={activeIndex}
-        next={next}
-        previous={previous}
-        {...args}
-      >
-        <CarouselIndicators
-          items={items}
+      <div>
+        <Carousel
           activeIndex={activeIndex}
-          onClickHandler={goToIndex}
-        />
-        {slides}
-        <CarouselControl
-          direction="prev"
-          directionText="Previous"
-          onClickHandler={previous}
-        />
-        <CarouselControl
-          direction="next"
-          directionText="Next"
-          onClickHandler={next}
-        />
-      </Carousel>
+          next={next}
+          previous={previous}
+          dark
+          slide
+          fade={false}
+        >
+          <CarouselIndicators
+            items={items}
+            activeIndex={activeIndex}
+            onClickHandler={goToIndex}
+          />
+          {slides}
+          <CarouselControl
+            direction="prev"
+            directionText="Previous"
+            onClickHandler={previous}
+          />
+          <CarouselControl
+            direction="next"
+            directionText="Next"
+            onClickHandler={next}
+          />
+        </Carousel>
+      </div>
     </>
   );
 }
