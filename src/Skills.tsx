@@ -49,7 +49,7 @@ function Skills() {
             <th className={styles.skillsColor1}>React en TypeScript</th>
             <td className={styles.skillsColor1}>
               Experience with Vite, virtual DOM, JSX, react components, creating
-              a react app, componnets interacting, props, hooks, react styles,
+              a react app, componets interacting, props, hooks, react styles,
               react router, children, Bootstrap, markdown
             </td>
           </tr>
