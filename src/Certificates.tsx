@@ -5,8 +5,9 @@ import {
   CarouselItem,
   CarouselControl,
   CarouselIndicators,
-  CarouselCaption,
 } from "reactstrap";
+
+import styles from "./Certificates.module.css";
 
 import certificate1 from "./Image-certificates/Image_certificate_1.jpg";
 import certificate2 from "./Image-certificates/Image_certificate_2.jpg";
@@ -96,7 +97,7 @@ function Certificates() {
 
   return (
     <>
-      <div>
+      <div className={styles.carouselWrapper}>
         <Carousel
           activeIndex={activeIndex}
           next={next}
