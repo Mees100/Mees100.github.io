@@ -23,7 +23,9 @@ function Contact() {
             className={styles.boxLocation}
             icon={faLocationDot}
           />
-          <span className={styles.tekstLocation}>Nederland, Gelderland</span>
+          <span className={styles.tekstLocation}>
+            The Netherlands, Gelderland
+          </span>
         </div>
       </div>
       <div className={styles.squareBox1}>

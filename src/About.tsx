@@ -4,7 +4,13 @@ function About() {
   return (
     <>
       <section className={styles.boxNl}>
-        <h4>Mijn Nederlands</h4>
+        <h4>
+          Hi, I'm Alina,{" "}
+          <span style={{ fontWeight: 100, fontSize: "20px" }}>
+            here you can find some information about me in Dutch
+          </span>
+        </h4>
+        <h5>Mijn Nederlands</h5>
         <table className={styles.dutch}>
           <tbody>
             <tr>
@@ -62,7 +68,7 @@ function About() {
         </table>
       </section>
       <section className={styles.boxHobby}>
-        <h4>Hobbies</h4>
+        <h5>Mijn hobbies</h5>
         <p>
           natuur, fietsen, reizen, hiking, bergen, boeken lezen, piano spelen,
           kunst, museums, Nederlandse taal leren
