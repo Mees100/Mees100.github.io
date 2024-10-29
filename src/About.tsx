@@ -4,11 +4,8 @@ function About() {
   return (
     <>
       <section className={styles.boxNl}>
-        <h4>
-          Hi, I'm Alina,{" "}
-          <span style={{ fontWeight: 100, fontSize: "20px" }}>
-            here some information about me in Dutch
-          </span>
+        <h4 style={{ fontWeight: 100, fontSize: "20px" }}>
+          Here some information about me in Dutch
         </h4>
         <h5>Mijn Nederlands</h5>
         <table className={styles.dutch}>
