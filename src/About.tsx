@@ -54,7 +54,7 @@ function About() {
                 <span style={{ color: "#66986A", fontWeight: 400 }}>
                   voor de Inburgeringexamens
                 </span>{" "}
-                geslaagd. Ik kreeg voor de meeste examens 10
+                geslaagd. Ik kreeg voor de meeste examens een 10
               </td>
             </tr>
             <tr>
