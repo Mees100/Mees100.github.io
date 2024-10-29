@@ -7,7 +7,7 @@ function About() {
         <h4>
           Hi, I'm Alina,{" "}
           <span style={{ fontWeight: 100, fontSize: "20px" }}>
-            here you can find some information about me in Dutch
+            here some information about me in Dutch
           </span>
         </h4>
         <h5>Mijn Nederlands</h5>
