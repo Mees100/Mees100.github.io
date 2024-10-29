@@ -59,7 +59,7 @@ function Layout() {
                 to="/certificates"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Certicates
+                Certificates
               </Link>
               <Link
                 className={styles.linkStyles}
