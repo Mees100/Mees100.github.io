@@ -2,7 +2,7 @@
 
 ## Description:
 
-This website is my second project for my portfolio. I rewrote my website in TypeScript and used vite.
+This website is my second project for my portfolio on https://mees100.github.io/. I rewrote my website in TypeScript and used vite.
 
 I still continue to improve it.
 
