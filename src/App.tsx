@@ -80,7 +80,7 @@ function Layout() {
               </Link>
 
               <a
-                href="https://github.com/Mees100/Mees100.github.io"
+                href="https://github.com/Mees100?tab=repositories"
                 target="_blank"
               >
                 <FontAwesomeIcon
