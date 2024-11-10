@@ -10,13 +10,14 @@ function Skills() {
               Web Foundations
             </th>
             <td className={styles.skillsColor1}>
-              Fundamentals of HTML: structure, tables, semantic HTML
+              HTML: elements, structure, tables, semantic HTML
             </td>
           </tr>
           <tr>
             <td className={styles.skillsColor1}>
-              Fundamentals of CSS:<br></br> the Box Model, Flexbox and Grid,
-              display and positioning, colours, typography, secondary navigation
+              CSS: the Box Model, display and positioning, Flexbox and Grid,
+              selectors and visual rules display and positioning, colors,
+              typography, secondary navigation
             </td>
           </tr>
           <tr>
@@ -32,7 +33,7 @@ function Skills() {
           <tr>
             <th className={styles.skillsColor1}>JavaScript</th>
             <td className={styles.skillsColor1}>
-              DOM,data types, conditional statements, functions, scope, arrays,
+              DOM, data types, conditional statements, functions, scope, arrays,
               loops, objects, iterators, higher-order functions, DOM events,
               errors and debugging
             </td>
@@ -47,16 +48,14 @@ function Skills() {
           <tr>
             <th className={styles.skillsColor1}>React en TypeScript</th>
             <td className={styles.skillsColor1}>
-              Vaardigheden en ervaring met Vite, virtual DOM, JSX, react
-              components, creating a react app, componnets interacting, props,
-              hooks, react styles, react router, children, Bootstrap, markdown
+              Experience with Vite, virtual DOM, JSX, react components, creating
+              a react app, componets interacting, props, hooks, react styles,
+              react router, children, Bootstrap, markdown
             </td>
           </tr>
           <tr>
             <th className={styles.skillsColor2}>Languages</th>
-            <td className={styles.skillsColor2}>
-              Nederlands, Engels, Russisch
-            </td>
+            <td className={styles.skillsColor2}>Dutch, English, Russian</td>
           </tr>
         </tbody>
       </table>

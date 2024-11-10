@@ -6,6 +6,10 @@ section {
   padding: 5px;
   flex-grow: 1;
 }
+table {
+  margin-top: 20px;
+}
+
 .boxHobby {
   background-image: url("./Image-certificates/Bergen_about.jpg");
   background-size: 400px 400px;
@@ -19,14 +23,17 @@ section {
 .boxNl h4 {
   padding: 10px 0;
   line-height: 25px;
-  font-family: "Noto Music";
+  color: var(--color-brown);
+  font-family: "Amatic SC, sans-serif";
+}
+.boxNl h5 {
+  margin-top: 30px;
 }
 
-.boxHobby h4 {
-  padding: 10px;
+.boxHobby h5 {
   line-height: 25px;
   text-align: center;
-  font-family: "Noto Music";
+  padding-top: 65px;
 }
 
 .sizeLink {

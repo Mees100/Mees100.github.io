@@ -4,11 +4,11 @@
 
   th {
     padding: 10px;
-    font-weight: 100;
-    font-family: "Noto Music";
+    font-family: "Amatic SC, sans-serif";
     color: var(--color-brown);
     letter-spacing: 0.0625rem;
     font-size: 0.9em;
+    font-weight: 400;
   }
   td {
     padding: 5px;

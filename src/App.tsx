@@ -11,6 +11,8 @@ import { useState } from "react";
 import { Routes, Route, Outlet, Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Main from "./components/Main.tsx";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 function Layout() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -59,7 +61,7 @@ function Layout() {
                 to="/certificates"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Certicates
+                Certificates
               </Link>
               <Link
                 className={styles.linkStyles}
@@ -76,6 +78,17 @@ function Layout() {
               >
                 Contact
               </Link>
+
+              <a
+                href="https://github.com/Mees100/Mees100.github.io"
+                target="_blank"
+              >
+                <FontAwesomeIcon
+                  style={{ fontSize: "1.2em" }}
+                  className={styles.linkStyles}
+                  icon={faGithub}
+                />{" "}
+              </a>
             </div>
           </nav>
         </Container>
